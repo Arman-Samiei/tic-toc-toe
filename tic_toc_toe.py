@@ -32,6 +32,6 @@ def check_if_one_player_win(board, number_selected):
         else:
             return True
     return False
-def game_initialization():
+
 
 

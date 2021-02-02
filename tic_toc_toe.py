@@ -6,7 +6,7 @@ def print_board(board):
                 continue
             else:
                 print(board[row*3+j].upper())
-def check_if_one_player_win(player_symbol, board, number_selected):
+def check_if_one_player_win(board, number_selected):
     row = int(number_selected/3)
     col = int(number_selected%3)
     for i in range(2):
@@ -32,6 +32,6 @@ def check_if_one_player_win(player_symbol, board, number_selected):
         else:
             return True
     return False
-
+def game_initialization():
 
 
